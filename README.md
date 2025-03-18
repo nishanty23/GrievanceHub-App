@@ -8,10 +8,10 @@ GrievanceHub is a lightweight Android application designed for efficient grievan
 ✔ File-Based Storage – Uses FileStorageManager.kt to read, write, and update grievances.
 
 🛠 Technologies Used
-Language: Kotlin
-UI Design: XML
-Storage: Internal File System (grievances.txt)
-Components: RecyclerView, Activities
+💻 Language: Kotlin
+🎨 UI Design: XML
+📂 Storage: Internal File System (grievances.txt)
+🛠 Components: RecyclerView, Activities
 
 📂 File Structure
 app/
@@ -31,13 +31,30 @@ app/
 │   ├── activity_edit_grievance.xml  
 │   ├── item_grievance.xml  
 
-🚀 How to Run the App
-Clone the repository:
-git clone https://github.com/yourusername/GrievanceHub-App.git
-Open the project in Android Studio.
-Build and run the app on an emulator or physical device.
+🚀 How to Run the App – Step-by-Step Explanation
+To run the GrievanceHub app on your local system, follow these steps:
 
-📌 Future Enhancements
-Implement Room Database for better storage.
-Add user authentication for secure grievance submissions.
-Enable cloud storage integration for data backup.
+1️⃣ Clone the Repository
+This step downloads the project files from GitHub to your local machine.
+🔹 Open Command Prompt (Windows) / Terminal (Mac/Linux)
+🔹 Run the following command:
+git clone https://github.com/yourusername/GrievanceHub-App.git
+📌 What This Does?
+✔ Downloads the entire project to your computer.
+✔ Creates a local copy of the repository in a folder named GrievanceHub-App.
+
+2️⃣ Open the Project in Android Studio
+🔹 Launch Android Studio (make sure it's installed).
+🔹 Click "Open an Existing Project" and select the GrievanceHub-App folder.
+🔹 Wait for Android Studio to sync the Gradle files (this may take a few minutes).
+📌 What This Does?
+✔ Loads the project in the development environment.
+✔ Ensures all dependencies are properly set up.
+
+3️⃣ Build and Run the App
+🔹 Connect an Android Device via USB (Enable Developer Mode & USB Debugging) OR
+🔹 Use an Emulator (Create an Android Virtual Device in Android Studio).
+🔹 Click "Run" (▶️ button) in Android Studio.
+📌 What This Does?
+✔ Compiles and builds the app.
+✔ Deploys and launches the app on the selected emulator or device.
