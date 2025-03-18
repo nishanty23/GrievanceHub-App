@@ -38,7 +38,7 @@ To run the GrievanceHub app on your local system, follow these steps:
 This step downloads the project files from GitHub to your local machine.
 🔹 Open Command Prompt (Windows) / Terminal (Mac/Linux)
 🔹 Run the following command:
-git clone https://github.com/yourusername/GrievanceHub-App.git
+"git clone https://github.com/yourusername/GrievanceHub-App.git"
 📌 What This Does?
 ✔ Downloads the entire project to your computer.
 ✔ Creates a local copy of the repository in a folder named GrievanceHub-App.
