@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#201685"
+        app:titleTextColor="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Grievance Details -->
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category" />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Description" />
+
+            <TextView
+                android:id="@+id/textViewStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Status" />
+
+            <TextView
+                android:id="@+id/textViewTimestamp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Timestamp" />
+
+            <!-- Resolution Section -->
+            <TextView
+                android:text="Resolution:"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewResponse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No resolution yet"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Feedback Section -->
+            <TextView
+                android:text="Employee Feedback:"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No feedback yet" />
+
+            <TextView
+                android:text="Rating:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBarFeedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:isIndicator="true" />
+
+            <!-- Action Buttons -->
+            <Button
+                android:id="@+id/buttonRespond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Respond"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#4CAF50" />
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#9E9E9E" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
